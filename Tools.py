@@ -1,12 +1,7 @@
 import base64
 import os
 import subprocess
-import time
-from io import BytesIO
-from typing import Tuple
-
 import requests
-from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv()
