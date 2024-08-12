@@ -9,10 +9,6 @@ import requests
 from PIL import Image
 from dotenv import load_dotenv
 
-skip_subjects = ["Re: Geaccepteerd:", "Automatic reply:", "Mattermost Notification", "Accepted: ", "Automatic reply: ",
-                 "Out of Office: ", "Geannuleerd:", "Declined: ", "Canceled: ", "[JIRA]", "[z-cert auth]", "Voorlopig:",
-                 "De opname van uw Teams-vergadering"]
-
 load_dotenv()
 PROJECT_FOLDER = os.getenv("PROJECT_FOLDER")
 
